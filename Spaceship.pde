@@ -53,6 +53,12 @@ class Spaceship extends Floater
   public void sety(double n){
     myCenterY = n;
   }
+  public double getx(){
+    return(myCenterX);
+  }
+  public double gety(){
+    return(myCenterY);
+  }
 
   
 }
