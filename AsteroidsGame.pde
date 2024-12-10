@@ -35,7 +35,7 @@ b.show();
     d.get(i).show();
     if(dist((float)d.get(i).getCentX(),(float)d.get(i).getCentY(),(float)b.getx(),(float)b.gety()) <= 25){
     d.remove(i);
-    i--:
+    if(i>0){i--;}
     }
   }
 }
