@@ -24,7 +24,7 @@ class Boolet extends Floater{
   public int getlife(){
     return(lifeTime);
   }
-  public int getStart(){
+  public int  getStart(){
     return(startTime);
   }
   public void setStart(int a){
