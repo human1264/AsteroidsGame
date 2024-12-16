@@ -15,10 +15,10 @@ class Boolet extends Floater{
     myCenterY += myYspeed;
     ellipse((float)myCenterX, (float)myCenterY, 2,2);
   }
-  public double getx1(){
+  public double returnx(){
     return(myCenterX);
   }
-  public double gety1(){
+  public double returny(){
     return(myCenterY);
   }
   public int getlife(){
