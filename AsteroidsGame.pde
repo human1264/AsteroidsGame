@@ -53,7 +53,7 @@ b.show();
     for(int i = 0; i < f.size(); i++){
       for(int k = 0; k < d.size(); k++){
         
-          if(dist((float)d.get(k).getCentX(),(float)d.get(k).getCentY(),(float)f.get(i).getx1(),(float)f.get(i).gety1()) <= 25){
+          if(dist((float)d.get(k).getCentX(),(float)d.get(k).getCentY(),(float)f.get(i).returnx(),(float)f.get(i).returny()) <= 25){
             f.remove(i);
             d.remove(k);
             if(k > 0){k--;}
