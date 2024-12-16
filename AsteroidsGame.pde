@@ -20,7 +20,7 @@ d = new ArrayList <Asteroid>();
     e = new Asteroid();
     d.add(e);
   }
-f = new ArrayList <Boolet>(30);
+f = new ArrayList <Boolet>();
 }
 
 public void draw(){
